@@ -1,0 +1,13 @@
+/* 
+  Localized.strings
+  SimplePlugin
+
+  Created by Isaiah Carew on 11/7/17.
+  Copyright © 2017 YourHead. All rights reserved.
+*/
+
+
+
+"Plugin Name" =             "Simple Plugin";
+"Plugin Author" =           "My Company";
+"Plugin Description" =      "This is a very simple plugin.";

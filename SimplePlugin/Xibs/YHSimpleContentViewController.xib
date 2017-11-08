@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="13529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="YHSimpleContentViewController">
+            <connections>
+                <outlet property="markdownView" destination="ZT6-ye-ZOS" id="o4M-1z-yVt"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="webView" destination="4n3-vX-5hK" id="J9t-kb-GNx"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView misplaced="YES" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="291"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <splitView misplaced="YES" dividerStyle="thin" vertical="YES" id="9a5-uq-luj">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="291"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <customView id="sar-Vx-ruD">
+                            <rect key="frame" x="0.0" y="0.0" width="202" height="291"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <customView misplaced="YES" id="ZT6-ye-ZOS" customClass="RWMarkdownView">
+                                    <rect key="frame" x="0.0" y="0.0" width="202" height="291"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-2" id="SmB-xc-94p"/>
+                                    </connections>
+                                </customView>
+                            </subviews>
+                        </customView>
+                        <customView id="Vi4-Ki-z7e">
+                            <rect key="frame" x="203" y="0.0" width="197" height="291"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <webView misplaced="YES" id="4n3-vX-5hK">
+                                    <rect key="frame" x="0.0" y="0.0" width="197" height="291"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
+                                        <nil key="identifier"/>
+                                    </webPreferences>
+                                </webView>
+                            </subviews>
+                        </customView>
+                    </subviews>
+                    <holdingPriorities>
+                        <real value="250"/>
+                        <real value="250"/>
+                    </holdingPriorities>
+                </splitView>
+            </subviews>
+            <point key="canvasLocation" x="8" y="45.5"/>
+        </customView>
+    </objects>
+</document>

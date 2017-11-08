@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSPrincipalClass</key>
+	<string>YHSimplePlugin</string>
+	<key>RWAddonAuthor</key>
+	<string>My Company</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://support.mycompany.com</string>
+	<key>RWPluginAPIVersion</key>
+	<integer>4</integer>
+	<key>CFBundleIconFile</key>
+	<string>plugin_icon</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>asset_manager</string>
+	<key>RWPluginIconSmall</key>
+	<string>list_dark</string>
+	<key>RWPluginIconSmallSelected</key>
+	<string>list_light</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017 My Company. All rights reserved.</string>
+</dict>
+</plist>
